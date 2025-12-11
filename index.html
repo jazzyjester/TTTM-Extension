@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - TTTM Table Tennis Events Extension</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 32px;
+      margin-bottom: 10px;
+      border-bottom: 3px solid #667eea;
+      padding-bottom: 15px;
+    }
+
+    h2 {
+      color: #34495e;
+      font-size: 24px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      color: #34495e;
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    ul {
+      margin-left: 30px;
+      margin-bottom: 15px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: #2c3e50;
+      font-weight: 600;
+    }
+
+    .last-updated {
+      color: #7f8c8d;
+      font-size: 14px;
+      font-style: italic;
+      margin-bottom: 30px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    a {
+      color: #667eea;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #e0e0e0;
+      text-align: center;
+      color: #7f8c8d;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy for TTTM Table Tennis Events Extension</h1>
+    <p class="last-updated"><strong>Last Updated:</strong> December 11, 2025</p>
+
+    <div class="section">
+      <h2>Overview</h2>
+      <p>TTTM Table Tennis Events is a Chrome extension that enhances the browsing experience on tttm.co.il by displaying today's table tennis games in an organized view and allowing users to contribute video links for matches.</p>
+    </div>
+
+    <div class="section">
+      <h2>Data Collection and Usage</h2>
+
+      <h3>Information We Collect</h3>
+      <p>When you choose to sign in with Google to add video links, we collect:</p>
+
+      <p><strong>1. Google Account Information</strong> (collected only if you sign in):</p>
+      <ul>
+        <li>Email address</li>
+        <li>Display name</li>
+        <li>Profile picture URL</li>
+        <li>Google user ID</li>
+      </ul>
+
+      <p><strong>2. User-Generated Content:</strong></p>
+      <ul>
+        <li>Video URLs you add for matches</li>
+        <li>Match identifiers associated with videos</li>
+        <li>Timestamps of when videos were added/updated</li>
+      </ul>
+
+      <p><strong>3. Authentication Data:</strong></p>
+      <ul>
+        <li>OAuth access tokens (stored locally in your browser)</li>
+        <li>Firebase authentication tokens (stored locally in your browser)</li>
+      </ul>
+
+      <h3>How We Use Your Information</h3>
+      <ul>
+        <li><strong>Authentication:</strong> To verify your identity and manage your session</li>
+        <li><strong>Authorization:</strong> To determine if you're approved to add video links</li>
+        <li><strong>Attribution:</strong> To track which user added which video links</li>
+        <li><strong>Display:</strong> To show your name and photo in the video manager interface</li>
+      </ul>
+
+      <h3>Where Your Data Is Stored</h3>
+      <ul>
+        <li><strong>Google Firestore:</strong> User profiles and video links are stored in Google's secure cloud database</li>
+        <li><strong>Chrome Local Storage:</strong> Authentication tokens are stored locally in your browser</li>
+        <li><strong>Firebase Authentication:</strong> Anonymous authentication sessions are created for database access</li>
+      </ul>
+
+      <h3>Data Sharing and Access</h3>
+      <ul>
+        <li><strong>No Third-Party Sharing:</strong> We do not share your data with any third parties</li>
+        <li><strong>Public Video Links:</strong> Video URLs you add are visible to all users of this extension</li>
+        <li><strong>User Profiles:</strong> Your email and name are stored but not publicly displayed to other users</li>
+        <li><strong>Internal Use Only:</strong> Your Google account information is used solely for authentication and authorization</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Permissions Explained</h2>
+
+      <h3>Required Permissions:</h3>
+
+      <p><strong>1. Identity Permission</strong></p>
+      <ul>
+        <li>Purpose: To enable Google Sign-In authentication</li>
+        <li>Data Access: Your Google account email, name, and profile picture</li>
+        <li>When Used: Only when you click "Sign in with Google"</li>
+      </ul>
+
+      <p><strong>2. Storage Permission</strong></p>
+      <ul>
+        <li>Purpose: To remember your login session</li>
+        <li>Data Stored: OAuth tokens, user ID, email, name, profile picture</li>
+        <li>Security: Data encrypted by Chrome's storage API</li>
+      </ul>
+
+      <p><strong>3. Host Permissions (*.googleapis.com)</strong></p>
+      <ul>
+        <li>Purpose: To communicate with Google Firestore database and authentication services</li>
+        <li>Data Transmitted: User authentication tokens and video link data</li>
+        <li>Security: All connections use HTTPS</li>
+      </ul>
+
+      <p><strong>4. Host Permissions (www.tttm.co.il)</strong></p>
+      <ul>
+        <li>Purpose: To display game information and video links on the TTTM website</li>
+        <li>Data Access: Publicly available match data from TTTM API</li>
+        <li>Modification: Adds video column to player pages</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Data Retention</h2>
+      <ul>
+        <li><strong>User Accounts:</strong> Retained as long as you remain an active user</li>
+        <li><strong>Video Links:</strong> Retained indefinitely unless you delete them</li>
+        <li><strong>Authentication Tokens:</strong> Automatically cleared when you sign out</li>
+        <li><strong>Anonymous Firebase Users:</strong> Created temporarily for database access</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Your Privacy Rights</h2>
+
+      <h3>You Can:</h3>
+      <ul>
+        <li><strong>View:</strong> See all video links you've added in the video manager</li>
+        <li><strong>Edit:</strong> Modify video links you've created</li>
+        <li><strong>Delete:</strong> Remove video links you've added</li>
+        <li><strong>Sign Out:</strong> Clear all authentication data from your browser</li>
+        <li><strong>Request Deletion:</strong> Contact us to request full account deletion</li>
+      </ul>
+
+      <h3>We Do NOT:</h3>
+      <ul>
+        <li>Track your browsing history</li>
+        <li>Monitor which pages you visit on TTTM</li>
+        <li>Use analytics or tracking pixels</li>
+        <li>Sell or share your data</li>
+        <li>Store passwords (authentication handled by Google)</li>
+        <li>Access your Google account beyond the requested scopes</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Data Security</h2>
+      <ul>
+        <li><strong>Encryption:</strong> All data transmission uses HTTPS/TLS encryption</li>
+        <li><strong>Authentication:</strong> Secure OAuth 2.0 protocol via Google</li>
+        <li><strong>Authorization:</strong> Admin approval required before users can add videos</li>
+        <li><strong>Storage:</strong> User data stored in Google Firestore with security rules</li>
+        <li><strong>Local Storage:</strong> Authentication tokens encrypted by Chrome</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Optional Features</h2>
+      <p><strong>Signing in is OPTIONAL.</strong> You can use the extension to:</p>
+      <ul>
+        <li>View today's games in organized layout</li>
+        <li>See video links on player pages</li>
+      </ul>
+
+      <p><strong>Signing in is REQUIRED only if you want to:</strong></p>
+      <ul>
+        <li>Add new video links for matches</li>
+        <li>Edit your existing video links</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Changes to This Policy</h2>
+      <p>We may update this privacy policy from time to time. Changes will be reflected with a new "Last Updated" date.</p>
+    </div>
+
+    <div class="section">
+      <h2>Compliance</h2>
+      <p>This extension complies with:</p>
+      <ul>
+        <li>Chrome Web Store Developer Program Policies</li>
+        <li>General Data Protection Regulation (GDPR)</li>
+        <li>California Consumer Privacy Act (CCPA)</li>
+        <li>Google API Services User Data Policy</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Google API Services Disclosure</h2>
+      <p>This extension uses Google API Services and is subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+      <p>The extension's use and transfer of information received from Google APIs adheres to <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    </div>
+
+    <div class="footer">
+      <p>TTTM Table Tennis Events Extension</p>
+      <p><a href="https://github.com/ronnyremesnik/TTTMChromeExtension" target="_blank">View on GitHub</a></p>
+    </div>
+  </div>
+</body>
+</html>
